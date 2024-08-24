@@ -43,10 +43,11 @@ Buổi 4:
 	- target là thư mục dịch thuật từ src
 	- gitignore là file git sẽ không đẩy một số thư viện lên
 	- mvnw là file hỗ trợ dịch thuật cho target
-	(chưa fix được lỗi mnv --version)
+	- .mvnw spring-boot:run(viết sai cú pháp)
 buổi 5:
-	- grouid là tên miền của project
-	- artifacid là sơ vít
+	- Jhipster 
+	- groupid là tên miền của project
+	- artifacid là tên của service
 	- beans là một thực thể để nạp vào container
 	- component là một scan để thông báo cho container nên quản lý
 	- các thực thể cùng cấp với file aplication thì sẽ được quản lý bởi java content
@@ -54,4 +55,6 @@ buổi 5:
  tiêm vào ví dụ a -> b -> c thì nó 
 sẽ là thành phần b để giảm thiểu sự
 phụ thuộc.
-	- tightly couple 
+	- tightly couple vs less couple (nên viết code giảm sự phụ thuộc vào nhau)
+buổi 6: 
+	- cài devtool để hỗ trợ
