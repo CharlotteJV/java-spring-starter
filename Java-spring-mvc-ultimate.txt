@@ -1,0 +1,57 @@
+buổi 1: 
+	+ phải có kĩ năng java 8 
+	+ html/css/js
+buổi 2: cài môi trường
+	+ cài jdk 17.0.9
+	+ cài format + gỡ pre
+	+ cài extension code spell checker,
+extension pack java, spring boot extension java
+* Ôn phần git: 
+	- Tạo 1 project trên github
+		+ tạo github repo
+		+ clone 
+		+ viết code 
+			git status 
+			git add.
+			git commit -m ""
+			gt push origin main
+	- tạo project trên local và đẩy lên github
+		+ tạo github repo 
+		+ git init
+		+ viết code 
+		+ git status 
+		+ git add .
+		+ git commit -m ""
+		+ git remote add origin 
+		+ git push origin master
+	- http vs ssh: xác thực người dùng
+
+	- git init là tạo lịch sử mã nguồn - (tạo file .git)
+	- git add . là working directory - git commit -m là stagin ares - git push - remote ares
+
+	- git pull kéo code về (git fetch + git mergen)
+	- git checkout -b name
+	- git brach
+	- resolve coflict
+	- git log -1 xem mình đang đứng ở nhánh nào 
+	- nếu code quá nhiều sự khác biệt thì tạo một nhánh riêng rồi resolve coflic 
+rồi giải quyết xong thì đẩy code lên nhánh main
+	- khó là giải quyết các nhánh mà sau này nên sử dụng gitlab để quản lý code 
+	- đã học xong git - có thời gian thì nên thực hành nhiều hơn 
+Buổi 3: tìm hiểu về java spring 
+Buổi 4: 
+	- target là thư mục dịch thuật từ src
+	- gitignore là file git sẽ không đẩy một số thư viện lên
+	- mvnw là file hỗ trợ dịch thuật cho target
+	(chưa fix được lỗi mnv --version)
+buổi 5:
+	- grouid là tên miền của project
+	- artifacid là sơ vít
+	- beans là một thực thể để nạp vào container
+	- component là một scan để thông báo cho container nên quản lý
+	- các thực thể cùng cấp với file aplication thì sẽ được quản lý bởi java content
+	- IoC vs Dependency injection là một chức năng để
+ tiêm vào ví dụ a -> b -> c thì nó 
+sẽ là thành phần b để giảm thiểu sự
+phụ thuộc.
+	- tightly couple 
