@@ -58,3 +58,24 @@ phụ thuộc.
 	- tightly couple vs less couple (nên viết code giảm sự phụ thuộc vào nhau)
 buổi 6: 
 	- cài devtool để hỗ trợ
+	- sql vs nosql 
+	- trước khi triển khai một dự
+án thì dùng ngôn ngữ và công cụ gì 
+cho phù hợp
+	- học thêm về nosql nhá 
+recomment học thêm nodejs của khóa 
+này luôn
+	- authentication là xác thực người dùng 
+	- authorication là quyền hạn người dùng 
+	- req gửi yêu cầu lên server 
+	- req là thao tác người dùng 
+buổi 7: 
+	- mô hình mvc
+	- bị bug ở exclude chắc do tắt hết quyền nên nó lỗi 
+	- restcontroller là mô hình sử dụng api 
+	- public string là nhận tên file 
+	- file static là file public
+	- thứ tự các filter quan trọng: 
+		+ check bảo mật : CORS, CSRF
+		+ xác thực người dùng là ai? - Authentication Filter
+		+ xác thực người dùng để làm gì ? - Authorization Filter 
